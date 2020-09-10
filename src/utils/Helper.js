@@ -1,6 +1,6 @@
 export const MaxLength=(length)=>(value)=>{
     if (value){
-        if (value.length>length) return (`Количество символов больше ${length} `)
+        if (value.length>length) return (`Количество символов больше ${length} (${value.length}) `)
         return undefined
     }
     

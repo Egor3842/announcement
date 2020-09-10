@@ -8,7 +8,7 @@ const Header = (props) => {
             <table className = {s.table}>
             <tbody>
                 <tr>
-                    <td> <Title title = 'Объявления'/></td>
+                    <td> <Title title = 'Всего объявлений:' Amount = {props.Amount}/></td>
                     <td> <Button onClickFunc = {props.setButtonClick} buttonName = 'Добавить'/></td>
                 </tr>
                 </tbody>

@@ -12,6 +12,7 @@ const AddAnnounce = (props)=>{
     const onSubmit=(formData)=>{
         props.SetNewAnnounce(formData.title, formData.text, formData.number,formData.city)
         props.setButtonClick(false)
+        props.ShowCurrentAnnounce()
     }
     return (
     <div className = {s.container}>

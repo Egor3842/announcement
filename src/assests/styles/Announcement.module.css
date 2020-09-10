@@ -30,8 +30,8 @@
 
 .close {
     position: absolute;
-    top:1px;
-    right: 9px;
+    top:0.5px;
+    right: 11px;
     width: 16px;
     height: 16px;
     opacity: 0.3;
