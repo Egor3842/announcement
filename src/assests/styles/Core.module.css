@@ -1,0 +1,28 @@
+.title {
+    font-size: 32px;
+
+}
+
+.button {
+    padding: 2px 15px 2px 15px;
+    float: right;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: #07ac40;
+    color: white;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #141414;
+    cursor: pointer;
+}
+
+.button:active {
+    outline: none;
+}
+
+.notification {
+    text-align: center;
+}

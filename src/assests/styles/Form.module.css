@@ -1,0 +1,75 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+.Main_Title{
+    position: relative;
+    top:1em;
+    left:15%;
+    font-size: 32px;
+    font-weight: bold;
+}
+.close {
+    position: absolute;
+    right: 32px;
+    top:10px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.3;
+    }
+    .close:hover {
+    opacity: 1;
+    }
+    .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+    }
+    .close:before {
+    transform: rotate(45deg);
+    }
+    .close:after {
+    transform: rotate(-45deg);
+    }
+    .container_Form{
+        position: absolute;
+        left:10%;
+        top:100px;
+    }
+    .BigTextArea{
+        height: 150px;
+    }
+    .TableTitle{
+        position:absolute;
+        font-weight: 500;
+        width: 50px;
+        display:inline-flex;
+    }
+    textarea{
+        outline: none;
+    }
+.buttonContainer{
+    padding-top: 20px;
+    text-align: center;
+}
+    .button{
+        padding: 2px 15px 2px 15px;
+        border: none;
+        font: inherit;
+        color: inherit;
+        background-color: #07ac40;
+        color: white;
+        outline: none;
+        }
+        .button:hover{
+        background-color: #141414;
+        cursor: pointer;
+        }
+        .button:active{
+        outline: none;
+        }
+table td {padding: 0;}
+table tr {padding: 40px 0;}

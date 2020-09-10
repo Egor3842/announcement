@@ -1,0 +1,26 @@
+textarea{
+    resize: none;
+    height: 120px;
+    width: 250px;
+}
+input{
+    width: 250px;
+}
+select{
+    width: 250px;
+}
+
+.form.error textarea
+{
+    border: solid red 2px;
+}
+.form.error input
+{
+    border: solid red 2px;
+}
+
+.form.error span
+{
+    font-size: 16px;
+    color:red;
+}
