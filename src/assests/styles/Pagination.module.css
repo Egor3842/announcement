@@ -5,6 +5,7 @@
     
 }
 .container_Page{
+    cursor: pointer;
     display: inline-block;
     margin: 0 auto;
     width: 20px;
