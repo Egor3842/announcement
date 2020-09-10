@@ -7,7 +7,7 @@ export const MaxLength=(length)=>(value)=>{
 }
 export const Validation=(value)=>{
     if (value) return undefined
-    return ('Введите текст')
+    return ('Заполените поле')
 }
 
 export const NumberValidation=(value)=>{

@@ -1,16 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import s from '../assests/styles/AnnouncementPage.module.css'
 import Header from '../elements/Header'
 import { connect } from 'react-redux'
 import Announcement from '../elements/Announcement'
 import AddAnnounce from '../elements/Form'
-import {SetNewAnnounce,DeleteAnnounce,ShowCurrentAnnounce,SetCurrentPage} from '../redux/Reducers/AnnouncementReducer'
+import {SetNewAnnounce,DeleteAnnounce,ShowCurrentAnnounce,SetCurrentPage} from '../redux/Reducers/actionCreactors'
 import Notification from '../core/Notification'
 import Pagination from '../elements/Pagination'
 
 const AnnouncementPage = (props) => {
-    useEffect(()=>{
-        props.ShowCurrentAnnounce()},[])
     const [isAddButtonClick,setButtonClick] = useState(false)
     const AllAnnouncements = props.currentAnnounce.map((x,key)=><Announcement 
                                                         currentAmountAnnouncePage = {props.currentAnnounce.length}

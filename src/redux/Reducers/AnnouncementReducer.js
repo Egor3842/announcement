@@ -40,18 +40,5 @@ const AnnouncementReducer=(state=initialState,action)=>{
 export default AnnouncementReducer
 
 
-export const SetNewAnnounce=(title,textAnnouns,numberPhone,city)=>{
-        return({type:ADD_NEW_ANNOUNCE, payload:{title,textAnnouns,numberPhone,city}});
-    }
 
-export const DeleteAnnounce = (id) => {
-    return ({type:DELETE_ANNOUNCE,id})
-}
-export const ShowCurrentAnnounce = () => {
-    return ({type:SHOW_CURRENRT_ANNOUNCE})
-}
-export const SetCurrentPage = (currentPage) => {
-    return ({type:SET_CURRENT_PAGE,currentPage})
-}
-     
    
