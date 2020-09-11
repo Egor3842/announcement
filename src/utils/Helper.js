@@ -11,7 +11,8 @@ export const Validation=(value)=>{
 }
 
 export const NumberValidation=(value)=>{
-    let phone = /^\d[\d\(\)\ -]{4,14}\d$/;
+    console.log(value)
+    let phone = /\+7\(\d{3}\)\d{3}-\d{2}-\d{2}/;
     let testedPhone = phone.test(value);
     if (testedPhone) return undefined
     return ('Номер введен некорректно')

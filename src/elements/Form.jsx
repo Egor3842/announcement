@@ -39,7 +39,7 @@ return <div className = {s.container_Form}>
         </tr>
         <tr>
             <td style={{fontWeight: 500, display:'inline-flex'}}>Номер телефона <span style={{color: 'red'}}>*</span></td>
-            <td><div> <Field placeholder={'8(777)999-99-99'} name={"number"} validate = {[Validation,NumberValidation]} component={Input} /></div></td>
+            <td><div> <Field placeholder={'+7(777)999-99-99'} name={"number"} validate = {[Validation,NumberValidation]} component={Input} /></div></td>
         </tr>
         <tr>
             <td style={{fontWeight: 500}}>Город</td>
